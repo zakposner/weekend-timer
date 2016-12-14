@@ -1,0 +1,75 @@
+/* ====================
+General Styles
+==================== */
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-image: url(Images/work-1.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+/* ====================
+Clock Styles
+==================== */
+
+.timer-box {
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 1px 1px 10px #aaa;
+	border: 2px solid #000;
+	font-size: 1rem;
+	border-radius: 5px;
+	
+	/* position */
+	margin-top: 50%;
+}
+
+#timer {
+	padding: 5% 2% 5% 2%;
+
+}	
+
+.big-number {
+	font-size: 2.5rem;
+	color: darkgreen;
+}
+
+/* Media Queries */
+
+@media screen and (min-width:992px) {
+	
+	.timer-box{
+		margin-top:65%;
+	}
+	
+	#minutes,
+	#seconds {
+		margin-left: 20px;
+	}
+	
+}
+
+@media screen and (max-width:1140px) {
+	
+	.big-number {
+		display: block;
+	}
+	
+}
+
+/* ====================
+Weekend Styles
+==================== */
+
+#wknd {
+	padding: 5% 5% 3% 5%;
+	font-size: 1.5rem;
+	color: darkgreen;
+}
